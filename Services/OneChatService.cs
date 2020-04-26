@@ -31,9 +31,9 @@ namespace SignalRDemo.Services
                 _channels.Add(channelName, channel);
                 return channel;
             }
-        }        
+        }
 
-        public List<ChatMessage> GetMessages(string channelName,string password = "")
+        public List<ChatMessage> GetMessages(string channelName, string password = "")
         {
             var emptyData = new List<ChatMessage>();
 
