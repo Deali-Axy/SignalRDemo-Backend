@@ -140,4 +140,6 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 
 为了方便我就用网页来做。
 
-首先写个简单的聊天界面布局，这里就不贴代码了，效果大概这样：
+首先写个简单的聊天界面布局，这里就不贴代码了
+
+项目启动之后访问 `http://127.0.0.1:6803/chat.html` 就可以进入聊天室了，支持多人群聊
